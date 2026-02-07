@@ -9,3 +9,13 @@ The algorithm is fairly simple by design. When a new word is appended to the dat
 - A random vector is generated for the word (this acts as a placeholder and helps spread out the data)
 - When trained with data, the vector adapts, shifting closer to or further from other words accordingly.
 - Later, this data can be accessed at any time.
+
+**Example Project**
+---
+Within the example folder, you will find a simple application using this algorithm in the form of a game. Here is a simple guide:
+- Guess a word
+- You will receive a score from 0% to 100% based on "how close" your guess was (based on the training data)
+- Keep guessing until you identify the word
+- Good luck!
+
+By design, the game is simple, using sine difference to determine "how close" each guess is. This is to act as a demonstration for further applications, such as for example an algorithm to show similar content based on a text prompt etc.
